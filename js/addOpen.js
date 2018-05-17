@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         $.ajax({
             type: "POST",
-            url: "../api/AssertConversation.php",
+            url: "../src/addOpen.php",
             data: {
                 id: $(this).val(),
                 supportId: $(this).attr('data-button')
